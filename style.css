@@ -68,12 +68,10 @@
     float: right;
 }
 
-
 .person-image-container img {
     width: 100%;
     height: 100%;
 }
-
 
 /* about section */
 
@@ -82,7 +80,7 @@
     position: relative;
     float: left;
     padding: 5rem 10rem;
-    font-family: 'Operator Mono Book','Courier New', Courier, monospace;
+    font-family: "Operator Mono Book", "Courier New", Courier, monospace;
 }
 
 .about-inner-container {
@@ -102,6 +100,22 @@
     text-align: justify;
 }
 
+/* galary section */
+.galary-container {
+    position: relative;
+    clear: left;
+}
+
+.galary-container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carousel-item {
+    margin: 0 auto;
+}
+
 
 /* media styles */
 
@@ -109,7 +123,7 @@
     .title-container h1 {
         font-size: 20px;
     }
-    
+
     .title-container p {
         font-size: 12px;
     }
@@ -132,11 +146,13 @@
     }
 }
 
+
+
 @media screen and (min-device-width: 768px) and (max-device-width: 1280px) {
     .title-container h1 {
         font-size: 50px;
     }
-    
+
     .title-container p {
         font-size: 21px;
     }
