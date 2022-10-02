@@ -10,12 +10,64 @@
             integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="home-page-container">
+        <!-- Navigation Bar -->
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Community Engagement</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarScroll"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        </div>
+
+        <!-- Branding section -->
+        <section>
+            <div class="branding-container">
+                <div class="title-container">
+                    <h1>The Life Cycle</h1>
+                    <p>Cycle for life</p>
+                    <img src="./assets/images/cycle.svg" alt="bicycle">
+                </div>
+                <div class="person-image-container">
+                    <img src="./assets/images/image1.jpg" alt="person">
+                </div>
+            </div>
+        </section>
+
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
